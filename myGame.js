@@ -23,8 +23,8 @@ var logs = {
 							'------------STRAIGHT    1:25---------------\n' +
 							'-----THREE OF A KIND    1:10----------------\n' +
 							'---------DOUBLE PAIR    1:4----------------\n' +
-							'----------------PAIR    1:1----------------\n' +
-							'********************\x1b[32m\u2660\u2665\u2663\u2666\x1b[37m*******************\n' +
+							'----------------PAIR    1:1----------------\n\x1b[0m' +
+							'********************\x1b[32m\u2660\u2665\u2663\u2666\x1b[37m\x1b[0m*******************\n' +
 							'\x1b[0m',//reset
 	promptMoneyMsg: 		'************\x1b[32mPLEASE INSERT MONEY\x1b[0m************ \n$',
 	promptRedrawMsg: 		'DO YOU WANT TO DRAW AGAIN? (y/n) ... ',
@@ -48,7 +48,6 @@ var logs = {
 	unluckyMsg: function(result, balance) {
 		console.log(
 			'\n\x1b[5m\x1b[31m\x1b[1m' + result + '!!!\x1b[0m\n' +
-			'BALANCE: $' + balance + '\n' +
 			'-------------------------'
 		);
 	},
