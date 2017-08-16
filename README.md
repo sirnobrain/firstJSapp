@@ -5,7 +5,7 @@ Submitted for Hacktive8 Phase 0 Week 2 Weekly Project
 CLI Slot game based on poker. Draw five cards and see if you get LUCKY!
 
 ## HOW TO
-* clone this repository
+* Download or clone this repository
 * make sure you have `NodeJS` installed. If you do not have Node JS installed on your machine, go to [NodeJS Page](https://nodejs.org/en/)
 * run `node myGame.js` from the same folder in your terminal
 * enjoy!
