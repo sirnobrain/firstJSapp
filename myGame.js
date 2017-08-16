@@ -101,14 +101,6 @@ var deckOfCards = {
 	}
 }
 
-//for testing evaluateCards function 
-//PAIR var cardsAndValue = [ [ '9 ♠', '7-0' ], [ 'Q ♠', '10-0' ], [ '3 ♥', '1-1' ], [ '7 ♥', '5-1' ], [ '9 ♥', '7-1' ] ];
-//DOUBLE PAIR var cardsAndValue = [ [ 'K ♥', '11-1' ], [ 'K ♣', '11-2' ], [ '10 ♥', '8-1' ], [ '10 ♣', '8-2' ], [ '7 ♣', '5-2' ] ];
-//FULL HOUSE var cardsAndValue = [ [ '9 ♠', '7-0' ], [ 'J ♠', '9-0' ], [ 'J ♦', '9-3' ], [ 'J ♠', '9-0' ], [ '9 ♥', '7-1' ] ];
-//THREE OF A KIND var cardsAndValue = [ [ '5 ♦', '3-3' ], [ 'J ♠', '9-0' ], [ '7 ♦', '5-3' ], [ 'J ♦', '9-3' ], [ 'J ♦', '9-3' ] ];
-//STRAIGHT var cardsAndValue = [ [ '9 ♥', '7-1' ], [ '10 ♣', '8-2' ], [ 'J ♥', '9-1' ], [ 'Q ♣', '10-2' ], [ 'K ♣', '11-2' ] ];
-//ROYAL STRAIGHT var cardsAndValue = [ [ '10 ♦', '8-3' ], [ 'J ♠', '9-0' ], [ 'Q ♦', '10-3' ], [ 'K ♦', '11-3' ], [ 'A ♦', '12-3' ] ];
-
 function evaluateCards(cardsAndValue) {
 	var rankCounts = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 	var suitCounts = [0, 0, 0, 0];
