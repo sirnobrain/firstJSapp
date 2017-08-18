@@ -1,5 +1,5 @@
 # POKER SLOT MACHINE
-Submitted for Hacktive8 Phase 0 Week 2 Weekly Project
+Submitted for Hacktiv8 Phase 0 Week 2 Weekly Project
 
 ## ABOUT THIS GAME
 CLI Slot game based on poker. Draw five cards and see if you get LUCKY!
